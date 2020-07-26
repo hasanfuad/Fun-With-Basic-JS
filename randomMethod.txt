@@ -1,0 +1,2 @@
+var res = Math.random()*6;
+console.log(res);

@@ -1,0 +1,37 @@
+// var tweet = prompt("Write your tweet!");
+// var tweetCount = tweet.length;
+// var remainingWord = (200 - tweetCount);
+// alert("You have written "+tweet+"your remaining word is "+remainingWord);
+ 
+//  var tweet = prompt("Write your tweet");
+//  var tweetCount = tweet.length;
+ 
+// alert("You can't be written more than 100 "+" "+tweet.slice(0,100));
+
+// var test = "principal requirements of plain English style and concentrates attention on the rules of usage and p";
+// var testRes = test.length;
+
+//------------------******-----------------*******--------------------******-----------------------*****--------//
+
+//taking name input 
+var name = prompt("write your name");
+
+//First letter slicing....
+var firstLetter = name.slice(0,1);
+//capitalized..
+var capitalized = firstLetter.toUpperCase();
+
+//Rest of the part
+
+var restOfThePart = name.slice(1,name.length);
+
+//lower case restOfThePart
+ restOfThePart = restOfThePart.toLowerCase();
+
+//concate... ...
+
+var concate = capitalized + restOfThePart;
+
+alert(concate);
+
+

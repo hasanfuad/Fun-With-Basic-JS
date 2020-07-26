@@ -1,0 +1,17 @@
+function bmiCalculator (weight, height) {
+    var calculate = weight/(height*height);
+    var round = Math.floor(calculate);
+    
+    if(round < 18.5){
+        alert("Your BMI is "+round+", so you are underweight.");
+    }
+    else if(round => 18.5 && round <= 24.9){
+        alert("Your BMI is "+round+", so you have a normal weight.");
+    }
+    else if (round > 24.9){
+        alert("Your BMI is "+round+", so you are overweight.");
+    }
+    return round;
+}
+
+bmiCalculator(60, 2);

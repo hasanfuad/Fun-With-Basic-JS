@@ -1,0 +1,15 @@
+function loveCalculate(){
+
+    var cal = Math.random()*100;
+    var finalCal = Math.floor(cal);
+    if(finalCal === 100){
+        console.log("It's too much of love ")
+    }
+    else{
+        console.log("You should work on your love.")
+    }
+
+    return finalCal;
+}
+
+loveCalculate();

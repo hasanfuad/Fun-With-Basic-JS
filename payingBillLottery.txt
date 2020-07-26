@@ -1,0 +1,36 @@
+// /*
+// function whosPaying(names) {
+    
+// /******Don't change the code above*******/
+    
+//     //Write your code here.
+    
+   
+//    var lengthOfPeople = names.length;
+//    var randomPeople = Math.floor(Math.random() * lengthOfPeople);
+//    var storeRandom = names[randomPeople];
+
+//    return storeRandom+ " is going to buy lunch today!";
+    
+
+
+// /******Don't change the code below*******/    
+// }
+
+// whosPaying(["fuad","fahad","saima","farhana"]);
+
+
+
+
+
+
+
+
+function whosPaying(names){
+    var peopleOnTheList = names.length;
+    var randomPeople = Math.floor(Math.random(peopleOnTheList) * peopleOnTheList);
+    var ppl = names[randomPeople];
+    return ppl+ " is going to buy lunch today!"
+}
+
+whosPaying(["hasan","fuad","hossain", "fahad", "saima"]);

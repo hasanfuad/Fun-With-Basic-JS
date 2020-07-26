@@ -1,0 +1,20 @@
+function isLeap(year) {
+ 
+
+if(year % 400 === 0){
+    alert("Yes! It's a leap year.");
+}
+else if(year % 4 === 0 && year % 100 !== 0){
+    alert("Yes! It's a leap year.");
+}
+
+else{
+    alert("No! It is NOT a leap year.");
+}
+    
+return ;
+/**************Don't change the code below****************/    
+
+}
+
+isLeap(1949);
